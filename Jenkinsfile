@@ -4,7 +4,7 @@ pipeline {
     }
 
     environment {
-        TOMCAT_HOST = '172.31.5.140'
+        TOMCAT_HOST = '172.31.6.53'
         TOMCAT_USER = 'root'
         TOMCAT_DIR = '/opt/apache-tomcat-10.1.49/webapps'
         JAR_FILE = 'bus-booking-app-1.0-SNAPSHOT.jar'  // Replace with the actual name of your JAR file
