@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'king'
+        label 'java'
     }
 
     environment {
