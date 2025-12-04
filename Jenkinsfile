@@ -37,7 +37,7 @@ pipeline {
             }
         }
 
-        stage('Run JAR Locally') {
+        stage('Run Locally') {
             steps {
                 script {
                     // Run the JAR file using java -jar
